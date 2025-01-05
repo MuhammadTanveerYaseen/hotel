@@ -45,9 +45,9 @@ const HeroSection = () => {
           Welcome to Hotel One Multan
         </h1>
         <div className="flex flex-col items-start justify-start mb-8 mt-8 w-full lg:w-9/12 lg:left-0">
-          <h3 className = "font-bold text-3xl ">"Experience the epitome of luxury and comfort at Hotel One Multan. Here’s what awaits you:"</h3>
+          <h3 className = "font-bold text-3xl ">Experience the epitome of luxury and comfort at Hotel One Multan. Here what awaits you:</h3>
           <div ref={typedRef} className="text-4xl font-extrabold text-yellow-700 animate-fade-in"></div>
-          <p className="text-lg italic text-blue-700"><a href ="#location">123 Luxury Lane, Multan, Pakistan</a></p>
+          <p className="text-lg italic text-blue-700"><a href ="#location">123 Luxury Lane  Multan Pakistan</a></p>
         </div>
         <div className="text-center mt-8">
           <button className="px-6 py-2 bg-yellow-500 text-white text-lg font-semibold rounded-2xl shadow-2xl hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
