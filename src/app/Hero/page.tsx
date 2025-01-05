@@ -46,7 +46,7 @@ const HeroSection = () => {
         </h1>
         <div className="flex flex-col items-start justify-start mb-8 mt-8 w-full lg:w-9/12 lg:left-0">
           <h3 className="font-bold text-2xl md:text-3xl text-yellow-300 mb-4">
-            Experience the epitome of luxury and comfort at Hotel One Multan. Here's what awaits you:
+            Experience the epitome of luxury and comfort at Hotel One Multan. Here what awaits you:
           </h3>
           <div
             ref={typedRef}
