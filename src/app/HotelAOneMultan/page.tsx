@@ -36,7 +36,7 @@ export default function HeroWithMap() {
       <div className="relative h-[400px] md:h-[500px] lg:h-[600px] flex items-center justify-center">
       {/* Background Image */}
       <Image
-        src="/ambg.jpg"
+        src="/HotelAOneMultan/IMG-20241106-WA0028.jpg"
         alt="Location Background"
         layout="fill"
         objectFit="cover"
