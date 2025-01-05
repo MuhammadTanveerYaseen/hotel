@@ -9,14 +9,14 @@ const ContactPage: React.FC = () => {
         {
             name: "Hotel Multan One",
             address: "Near Gulzar Hospital Main Bosan Road Multan",
-            phone: "+9233001000444",
-            email: "HotelMultanone@gmail.com",
+            phone: "+923008788992",
+            email: "besthotelbookinginmultan@gmail.com",
         },
         {
             name: "Hotel A One",
             address: "HBL Street Near Mall of Gulgashat Bosan Road Multan",
-            phone: "+923238525552",
-            email: "Hotelaonepk@gmail.com",
+            phone: "+923252866262",
+            email: "besthotelbookinginmultan@gmail.com",
         },
        
     ];
