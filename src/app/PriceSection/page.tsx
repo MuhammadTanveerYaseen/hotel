@@ -24,11 +24,11 @@ const hotels = [
 export default function OurHotels() {
   return (
     <section
-      className="py-12 px-6 md:px-10 lg:px-20 bg-gradient-to-r from-blue-100 to-gray-100"
+      className="py-12 px-6 md:px-10 lg:px-20 bg-slate-900"
       id="hotels"
     >
-      <h2 className="text-4xl font-extrabold mb-12 text-center text-gray-800">
-        Our Hotels
+      <h2 className="text-4xl font-extrabold mb-12 text-center text-white">
+        OUR HOTELS
       </h2>
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
         {hotels.map((hotel) => (
@@ -59,7 +59,7 @@ export default function OurHotels() {
                 </Link>
                 <Link
                   href={`/${hotel.slug}`}
-                  className="inline-block px-5 py-2 text-sm font-semibold text-white bg-green-500 rounded-full hover:bg-green-600 transition-colors shadow-md"
+                  className="inline-block px-5 py-2 text-sm font-semibold text-white bg-yellow-500 rounded-full hover:bg-green-600 transition-colors shadow-md"
                 >
                   Visit Now
                 </Link>

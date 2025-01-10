@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      brown: {
+        500: '#8B4513', // Custom brown color for the button
+      },
     },
   },
   plugins: [],

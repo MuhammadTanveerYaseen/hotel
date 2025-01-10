@@ -22,7 +22,7 @@ const ContactPage: React.FC = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-tr from-blue-500 via-purple-500 to-pink-500 p-6">
+        <div className="min-h-screen bg-slate-900">
             {/* Page Title */}
             <h1 className="text-5xl font-extrabold text-white text-center mb-10 tracking-wide drop-shadow-lg animate-fadeIn">
                 Contact Us

@@ -1,7 +1,8 @@
 "use client"
 import HeroSection from './Hero/page';
 import PriceSection from './PriceSection/page';
-import AddressWithMap from "./AdressWithMap/page";
+import Gallery from './Gallery';
+import ContactPage from './ContactUs/page';
 import Review from "./Review"
 
 export default function Home() {
@@ -10,13 +11,15 @@ export default function Home() {
       <HeroSection/>
     <div id = "price">
     <PriceSection/>
+    <Gallery></Gallery>
     </div>
-    <div>
+    <div className='bg-slate-900'>
       <Review></Review>
     </div>
-    <section  id="location" className="bg-cover bg-center flex justify-center items-center h-4/5 " style={{ backgroundImage: "url('/bed.jpg')" }}>
-        <AddressWithMap></AddressWithMap>
-      </section>
+    <section>
+      <ContactPage></ContactPage>
+    </section>
+    
 
     </div>
   );

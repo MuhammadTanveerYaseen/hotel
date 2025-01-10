@@ -32,7 +32,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="p-4 bg-background/50 sticky top-0 backdrop-blur border-b z-20">
+        <nav className="p-2 bg-background/50 sticky top-0 backdrop-blur border-b z-20">
             <LoadingBar
                 color='#933ce6'
                 progress={progress}
@@ -40,10 +40,10 @@ const Navbar = () => {
             />
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/">
-                    <div className="text-lg font-bold">Hotel Booking </div>
+                    <div className="text-lg font-bold">HOTEL BOOKING </div>
                 </Link>
                 <div className="hidden md:flex space-x-4 items-center">
-                    <Link href="https://wa.me/+923252866262" className="px-4 py-4 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
+                    <Link href="https://wa.me/+923252866262" className="px-1 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
                     BOOK NOW
                     </Link>
                     <Link href="/" className="hover:scale-105 hover:font-semibold transition-transform duration-300">

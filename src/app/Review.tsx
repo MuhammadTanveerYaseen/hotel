@@ -99,7 +99,7 @@ const HotelReviewWidget: React.FC = () => {
 
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg border border-gray-200">
-      <h2 className="text-2xl font-bold text-gray-800 text-center mb-4">Hotel Reviews</h2>
+      <h2 className="text-2xl font-bold text-gray-800 text-center mb-4">HOTEL REVIEWS</h2>
 
       {/* Notification */}
       {notification && (
