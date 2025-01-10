@@ -65,7 +65,7 @@ const HeroSection: React.FC = () => {
         </p>
 
         {/* Book Now Button */}
-        <Link href="https://wa.me/your-number" passHref>
+        <Link href="https://wa.me/+923252866262" passHref>
           
             <button className="mt-5 px-6 py-2 md:px-8 md:py-3 bg-yellow-500 text-white text-sm md:text-lg font-semibold rounded-full shadow-md hover:scale-110 hover:shadow-xl transition-transform duration-500 animate-fadeIn delay-1200">
               Book Now
