@@ -68,7 +68,7 @@ const Navbar = () => {
                         </button>
                         {isMobileMenuOpen && (
                             <div className="absolute top-10 right-0 bg-white shadow-lg p-4 rounded-lg w-48">
-                                <Link href="#price" className="px-2 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">BOOK NOW</Link>
+                                <Link href="https://wa.me/+923252866262" className="px-2 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">BOOK NOW</Link>
                                 <Link href="/" className="block py-2 hover:bg-gray-100 rounded">Home</Link>
                         
                                 <Link href="/ContactUs" className="block py-2 hover:bg-gray-100 rounded">Contact</Link>
